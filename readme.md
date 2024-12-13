@@ -8,3 +8,5 @@ Semáforo pisca em amarelo.
 
 ## Botão pressionado
 Se for pressionado no vermelho, semáforo fica verde.
+
+![alt text](image.png)
