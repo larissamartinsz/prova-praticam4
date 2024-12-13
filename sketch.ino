@@ -102,8 +102,8 @@ void loop() {
         buttonState = digitalRead(buttonPin);
         if (buttonState == HIGH) {
           Serial.println("Botão pressionado!");
-          digitalWrite(led_amarelo, HIGH);
-          digitalWrite(led_verde, LOW);
+          digitalWrite(led_amarelo, LOW);
+          digitalWrite(led_verde, HIGH);
           digitalWrite(led_vermelho, LOW);
           delay(1000);
         } else {
